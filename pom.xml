@@ -6,10 +6,14 @@
 	<groupId>pl.martenn</groupId>
 	<artifactId>timeline</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>timeline-web</module>
+		<module>timeline-app</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>timeline</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Timeline</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
