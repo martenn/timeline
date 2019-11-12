@@ -1,2 +1,5 @@
-job1:
- script: "mvn clean install"
+image: maven:latest
+build:
+ stage: build
+ script:
+  - mvn clean package
