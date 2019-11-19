@@ -1,0 +1,8 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - circleci/openjdk:latest
+    step:
+      - checkout
+      - run: mvn clean package
